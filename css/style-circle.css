@@ -1,0 +1,394 @@
+/*Developed by Aakash*/
+
+* {
+	border: 0px solid red;
+	transition: all .5s ease-out;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #f5f3f0;
+}
+
+.circle {
+	position: absolute;
+	width:499px;
+	height:500px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.circle-wrapper {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	width:500px;
+	height:500px;
+	padding: 14px;
+	box-shadow: 0px 4px 50px rgba(0,0,0,.3);
+	background-color: #f4f3f2;
+	transform: translateX(-50%) scale(1);
+	border-radius: 50%;
+	box-sizing: content-box;
+}
+
+.above, .below {
+    height: 250px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.above:before, .below:before {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    content: "";
+    border-radius: 250px 250px 0 0;
+    transform-origin: 50% 100%;
+    transform: rotate(0deg);
+    transition: all .5s ease-out;
+    top: 1px;
+}
+
+.below {
+	transform: rotateX(-180deg);
+}
+
+#bar1 {
+	z-index: +9;
+}
+
+#bar1 .above:before {
+	background: linear-gradient(to top left, #FFB49C, #FF91C6);
+}
+
+#bar1 .below:before {
+	background: linear-gradient(to bottom, #FFB49C, #FF91C6);
+}
+
+#bar2 .above:before {
+	background: linear-gradient(to top left, #FFCC9C, #F0EC8E);
+}
+
+#bar2 .below:before {
+	background: linear-gradient(to bottom, #FFCC9C, #F0EC8E);
+}
+
+#bar3 .above:before {
+	background: linear-gradient(to top left, #ADF08E, #9CE7FF);;
+}
+
+#bar3 .below:before {
+	background: linear-gradient(to bottom, #9CE7FF, #9CE7FF);;
+}
+
+#bar4 .above:before {
+	background: linear-gradient(to top left, #F79CFF, #92BDFF);;
+}
+
+#bar4 .below:before {
+	background: linear-gradient(to bottom, #F79CFF, #92BDFF);;
+}
+
+#bar5 .above:before {
+	background: linear-gradient(to top left, #06beb6, #48b1bf);;
+}
+
+#bar5 .below:before {
+	background: linear-gradient(to bottom, #06beb6, #48b1bf);;
+}
+
+#bar6 .above:before {
+	background: linear-gradient(to top left, #eb3349, #f45c43);;
+}
+
+#bar6 .below:before {
+	background: linear-gradient(to bottom, #eb3349, #f45c43);;
+}
+
+#bar7 .above:before {
+	background: linear-gradient(to top left, #614385, #516395);;
+}
+
+#bar7 .below:before {
+	background: linear-gradient(to bottom, #614385, #516395);;
+}
+
+#bar8 .above:before {
+	background: linear-gradient(to top left, #56ab2f, #a8e063);;
+}
+
+#bar8 .below:before {
+	background: linear-gradient(to bottom, #56ab2f, #a8e063);;
+}
+
+#bar-black .above:before {
+	background: #ebe9e8;
+}
+
+#bar-black .below:before {
+	background: #ebe9e8;
+}
+
+#bar2{
+	z-index: +8;
+}
+
+#bar3{
+	z-index: +7;
+}
+
+#bar4{
+	z-index: +6
+}
+
+#bar5{
+	z-index: +5
+}
+
+#bar6{
+	z-index: +4
+}
+
+#bar7{
+	z-index: +3
+}
+
+#bar8{
+	z-index: +2
+}
+
+#bar-black {
+	z-index: 0
+}
+
+.above {
+	transform: rotateY(180deg);
+}
+
+.inbox {
+	transform: rotate(-90deg);
+	position: absolute;
+}
+
+.white-circle {
+	position: absolute;
+	background: white;
+	width: 476px;
+	height:476px;
+	border-radius: 50%;
+	z-index: +50;
+	top: 12px;
+	left: 12px;
+}
+
+input {
+	border: 1px solid black;
+}
+
+.mid-circle {
+	text-align: center;
+	width: 166px;
+	height: 166px;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: +105;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.592) 100%);
+	border: 1px solid rgba(255, 255, 255, 0.9);
+	box-sizing: border-box;
+	padding: 63px 0px;
+}
+
+#w2 {
+	width: 207px;
+	height: 207px;
+	background: rgba(255,255,255,.3);
+	z-index: +101;
+	border: none;
+}
+
+#pot {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #615B55;
+	opacity: 0.5;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.25);
+	transform: translateY(-6px);
+}
+
+#trx {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #615B55;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.25);
+}
+
+#trx span {
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: 0.02em;
+}
+
+.gradient-circle {
+	height: 220px;
+	width: 220px;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: +100;	
+	transition: all .25s ease-out;
+	border: 6px solid white;
+}
+
+.in-black-circle {
+	width: 442px;
+	height: 442px;
+	position: absolute;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 99;	
+	background-color: #f5f4f3;
+	border: 1px solid white;
+}
+
+#b2 {
+	width: 374px;
+	height: 374px;
+}
+
+#b3 {
+	width: 288px;
+	height: 288px;
+}
+
+.photo-wrap {
+	width: 221px;
+	height: 50px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform-origin: left;
+	transform: translate(0%,-50%);
+	z-index: +106;
+}
+
+.photo-div{
+	position: absolute;
+	right: 12px;
+	top: 0px;
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background-size: 100% auto;
+	background-position: top;
+	border: 4px solid white;
+}
+
+.right-line {
+	height: 30px;
+	width: 6px;
+	position: absolute;
+	border-radius: 2px;
+	right: -2px;
+	top: 10px;
+}
+
+#pw1 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw1 .right-line {
+	background: linear-gradient(294.62deg, #FFB49C 38.6%, #FF91C6 63.51%);
+}
+
+#pw2 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw2 .right-line {
+	background: linear-gradient(154.99deg, #FFCC9C 34.68%, #F0EC8E 63.27%);
+}
+
+#pw3 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw3 .right-line {
+	background: linear-gradient(20.9deg, #9CE7FF 38.1%, #ADF08E 63.82%);
+}
+
+#pw4 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw4 .right-line {
+	background: linear-gradient(127.16deg, #F79CFF 26.19%, #92BDFF 74.47%);
+}
+
+#pw5 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw5 .right-line {
+	background: linear-gradient(127.16deg, #06beb6 26.19%, #48b1bf 74.47%);
+}
+
+#pw6 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw6 .right-line {
+	background: linear-gradient(127.16deg, #eb3349 26.19%, #f45c43 74.47%);
+}
+
+#pw7 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw7 .right-line {
+	background: linear-gradient(127.16deg, #614385 26.19%, #516395 74.47%);
+}
+
+#pw8 .photo-div {
+	background-image: url('../images/user.jpg');
+}
+
+#pw8 .right-line {
+	background: linear-gradient(127.16deg, #56ab2f 26.19%, #a8e063 74.47%);
+}
+
+canvas {
+	transform: scale(.8);
+	transform-origin: left;
+	margin-left: 150px;
+	position: absolute;
+	bottom: -40px;
+}
+
+@keyframes leftgo {
+	0%{transform: translateX(0%) scale(.5);}
+	100%{transform: translateX(-100%) scale(.5);}
+}
+
+.canvas-wrapper {
+	position: absolute;
+	left: 10%;
+	bottom: 0px;
+}

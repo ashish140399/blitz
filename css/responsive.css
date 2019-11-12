@@ -1,0 +1,322 @@
+@media(min-width:1351px) and (max-width:1500px){
+	/* **** Game Page **** */
+	.play-act h6{margin: 0;text-align: center;}
+	.progres-x h6,.player-data p,.player-data h4{font-size: 14px;}
+	.player-data h4{margin: 0 0px;}
+	.new-online h5{padding-left: 24px;line-height: 24px;}
+	.new-online h5:before{left: 0;top: 4px;}
+	.new-online h5:after{left: 2px;top: 6px; }
+	.scor-board .table>tbody>tr>td{padding: 15px;}
+	.scor-board .table>tbody>tr>td span{font-size: 14px;}
+	.play-act label, .disply-scr .form-group label{font-size: 12px;}
+	.btn-play{padding: 15px;}
+	.play-act h6{font-size: 14px;}
+	.groth-chart img{bottom: 50px; right: 0;}
+	.player-blocks h3{font-size: 16px;}
+	.player-blocks h3 span{width: 30px; height: 30px; line-height: 30px;font-size: 14px;}
+	.action-area .col-sm-4{padding: 0 5px;}
+	/* **** End Game Page **** */
+	/* **** Ranking Page **** */
+	.sort-blocks li a{font-size: 14px;}
+	.player-wins-box h2{font-size: 20px;}
+	.ply-bx2 h5{font-size: 16px;}
+	.ply-bx2 h6{width: 40px;height: 40px;line-height: 40px;font-size: 16px;margin:0 0 0 10px;}
+	/* **** End Ranking Page **** */
+	/* **** My Tickets **** */
+	.tick-pro h4{font-size: 18px;}
+	.tick-pro h3,.tick-bal li h4{font-size: 18px;}
+/*	.tick-bal li h5{font-size: 16px;}
+	.cre-tibtn span{padding: 0 10px;font-size: 13px;}
+	.cre-tibtn i {width: 40px;height: 40px;font-size: 15px;}*/
+	/* **** End My Tickets **** */
+}
+@media(min-width:1025px) and (max-width:1350px){
+	/* **** Game Page **** */
+	.navbar-default .navbar-nav>li{padding: 10px 0;margin-right: 10px;}
+	.navbar-default .navbar-nav>li>a{padding: 8px 20px;}
+	.user-bx{margin: 0;}
+	.navbar-collapse.collapse{padding: 0;}
+	.navbar-default .navbar-nav{margin-left: 0;}
+	.chat-blocks{right: -350px;padding: 15px 0 0;}
+	section.main-wrpper{padding: 56px 0 0;}
+	.play-act h6{margin: 0;text-align: center;}
+	.main-game-bx{min-height: 100%;}
+	.ply-img img{width: 40px;height: 40px;}
+	.progres-x h6,.player-data p,.player-data h4{font-size: 14px;}
+	.player-data h4{margin: 0 0px;}
+	.main-wrpper .col-sm-8, .main-wrpper .col-sm-4{padding: 0;}
+	.new-online h5{padding-left: 24px;line-height: 24px;}
+	.new-online h5:before{left: 0;top: 4px;}
+	.new-online h5:after{left: 2px;top: 6px; }
+	.scor-board .table>tbody>tr>td{padding: 15px;}
+	.scor-board .table>tbody>tr>td span{font-size: 14px;}
+	.play-act label, .disply-scr .form-group label{font-size: 12px;min-height: 35px;}
+	.disply-scr .form-control{font-size: 16px;}
+	.btn-play{padding: 15px;}
+	.play-act h6{font-size: 14px;}
+	.groth-chart img{bottom: 50px; right: 0;}
+	.player-blocks h3{font-size: 16px;}
+	.player-blocks h3 span{width: 30px; height: 30px; line-height: 30px;font-size: 14px;}
+	.action-area .col-sm-4{padding: 0 5px;}
+	.chetbut{display: block;}
+	/* **** End Game Page **** */
+	/* **** Ranking Page **** */
+	.sort-blocks{padding: 15px;}
+	.sort-blocks li a{font-size: 14px;padding: 10px 15px;}
+	.player-wins-box h2{padding: 0 15px;font-size: 20px;}
+	.player-wins-box li{padding: 10px 15px;}
+	.ply-bx2 h5{font-size: 16px;}
+	.ply-bx img{width: 40px;height: 40px;margin-right: 10px;}
+	.ply-bx2 h6{width: 40px;height: 40px;line-height: 40px;font-size: 16px;margin:0 0 0 10px;}
+	/* **** End Ranking Page **** */
+	/* **** My Tickets **** */
+	.ticket-profile{padding: 0 15px;}
+	.checkt-listhed .col-md-4{padding: 0 15px;}
+	.tick-pro h4{font-size: 18px;}
+	.tick-pro h3,.tick-bal li h4{font-size: 18px;}
+	.my-tickets-wrps{padding: 15px;}
+	.booked-tickets table tbody tr td .some-dt,
+	.booked-tickets table tbody tr td{font-size: 14px;}
+	.checkt-listhed h4{font-size: 18px;}
+	.tick-bal li h5{font-size: 16px;}
+	.cre-tibtn span{padding: 0 10px;font-size: 13px;}
+	.cre-tibtn i {width: 40px;height: 40px;font-size: 15px;}
+	/* **** End My Tickets **** */
+	/* **** News Page **** */
+	.news-wrps{padding: 60px 0;}
+	.news-blocks .col-md-4{padding: 0 15px;}
+	.news-blocks{padding: 20px 15px;}
+	/* **** End News Page **** */
+}
+@media(min-width:992px) and (max-width:1024px){
+	/* **** Game Page **** */
+	.navbar-default .navbar-nav>li{padding: 10px 0;margin-right: 10px;}
+	.navbar-default .navbar-nav>li>a{padding: 8px 10px;}
+	.user-bx{margin: 0;}
+	.navbar-collapse.collapse{padding: 0;}
+	.navbar-default .navbar-nav{margin-left: 0;}
+	.chat-blocks{right: -350px;padding: 15px 0 0;}
+	section.main-wrpper{padding: 56px 0 0;}
+	.play-act h6{margin: 0;text-align: center;}
+	.main-game-bx{min-height: 100%;}
+	.ply-img img{width: 35px;height: 35px;}
+	.progres-x h6,.player-data p,.player-data h4{font-size: 14px;}
+	.player-data h4{margin: 0 0px;}
+	.main-wrpper .col-sm-8, .main-wrpper .col-sm-4{padding: 0;}
+	.new-online h5{padding-left: 24px;line-height: 24px;}
+	.new-online h5:before{left: 0;}
+	.new-online h5:after{left: 2px;}
+	.scor-board .table>tbody>tr>td{padding: 15px;}
+	.scor-board .table>tbody>tr>td span{font-size: 14px;}
+	.play-act label, .disply-scr .form-group label{font-size: 12px;min-height: 35px;}
+	.disply-scr .form-control{font-size: 16px;}
+	.btn-play{padding: 15px;}
+	.play-act h6{font-size: 14px;}
+	.groth-chart img{bottom: 50px; right: 0;}
+	.player-blocks h3{font-size: 16px;}
+	.player-blocks h3 span{width: 30px; height: 30px; line-height: 30px;font-size: 14px;}
+	.action-area .col-sm-4{padding: 0;}
+	.chetbut{display: block;}
+	/* **** End Game Page **** */
+	/* **** Ranking Page **** */
+	.sort-blocks{padding: 15px;}
+	.sort-blocks li a{font-size: 14px;padding: 10px 15px;}
+	.player-wins-box h2{padding: 0 15px;font-size: 20px;}
+	.player-wins-box li{padding: 10px 15px;}
+	.ply-bx2 h5{font-size: 16px;}
+	.ply-bx img{width: 40px;height: 40px;margin-right: 10px;}
+	.ply-bx2 h6{width: 40px;height: 40px;line-height: 40px;font-size: 16px;margin:0 0 0 10px;}
+	/* **** End Ranking Page **** */
+	/* **** My Tickets **** */
+	.ticket-profile{padding: 0 15px;}
+	.checkt-listhed .col-md-4{padding: 0 15px;}
+	.tick-pro h4{font-size: 18px;}
+	.tick-pro h3,.tick-bal li h4{font-size: 18px;}
+	.my-tickets-wrps{padding: 15px;}
+	.booked-tickets table tbody tr td .some-dt,
+	.booked-tickets table tbody tr td{font-size: 14px;}
+	.checkt-listhed h4{font-size: 18px;}
+	.tick-bal li h5{font-size: 16px;}
+	.cre-tibtn span{padding: 0 10px;font-size: 13px;}
+	.cre-tibtn i {width: 40px;height: 40px;font-size: 15px;}
+	/* **** End My Tickets **** */
+	/* **** News Page **** */
+	.news-wrps{padding: 60px 0;}
+	.news-blocks .col-md-4{padding: 0 15px;}
+	.news-blocks{padding: 20px 15px;}
+	/* **** End News Page **** */
+}
+@media(min-width:768px) and (max-width:991px){
+	/* **** Game Page **** */
+	.navbar-default .navbar-nav>li{padding: 10px 0;margin-right: 10px;}
+	.navbar-default .navbar-nav>li>a{padding: 8px 10px;}
+	.user-bx{margin: 0;}
+	.navbar-collapse.collapse{padding: 0;}
+	.navbar-default .navbar-nav{margin-left: 0;}
+	.chat-blocks{right: -350px;padding: 15px 0 0;}
+	section.main-wrpper{padding: 56px 0 0;}
+	.play-act h6{margin: 0;text-align: center;}
+	.main-game-bx{min-height: 100%;}
+	.ply-img img{width: 35px;height: 35px;}
+	.progres-x h6,.player-data p,.player-data h4{font-size: 14px;}
+	.player-data h4{margin: 0 0px;}
+	.main-wrpper .col-sm-8, .main-wrpper .col-sm-4{padding: 0;}
+	.new-online h5{padding-left: 24px;line-height: 24px;}
+	.new-online h5:before{left: 0;}
+	.new-online h5:after{left: 2px;}
+	.scor-board .table>tbody>tr>td{padding: 15px;}
+	.scor-board .table>tbody>tr>td span{font-size: 14px;}
+	.play-act label, .disply-scr .form-group label{font-size: 12px;min-height: 35px;}
+	.disply-scr .form-control{font-size: 16px;}
+	.btn-play{padding: 15px;}
+	.play-act h6{font-size: 14px;}
+	.groth-chart img{bottom: 50px; right: 0;}
+	.player-blocks h3{font-size: 16px;}
+	.player-blocks h3 span{width: 30px; height: 30px; line-height: 30px;font-size: 14px;}
+	.action-area .col-sm-4{padding: 0 5px;}
+	.chetbut{display: block;}
+	/* **** End Game Page **** */
+	/* **** Ranking Page **** */
+	.sort-blocks{padding: 15px;}
+	.sort-blocks li a{font-size: 14px;padding: 10px 15px;}
+	.player-wins-box h2{padding: 0 15px;font-size: 20px;}
+	.player-wins-box li{padding: 10px 15px;}
+	.ply-bx2 h5{font-size: 14px;}
+	.ply-bx img{width: 40px;height: 40px;margin-right: 10px;}
+	.ply-bx2 h6{width: 40px;height: 40px;line-height: 40px;font-size: 16px;margin:0 0 0 5px;}
+	/* **** End Ranking Page **** */
+	/* **** My Tickets **** */
+	.ticket-profile{padding: 0 15px;}
+	.checkt-listhed .col-md-4{padding: 0 15px;}
+	.tick-pro h4{font-size: 18px;}
+	.tick-pro h3,.tick-bal li h4{font-size: 18px;}
+	.my-tickets-wrps{padding: 15px;}
+	.booked-tickets table tbody tr td .some-dt,
+	.booked-tickets table tbody tr td{font-size: 11px;}
+	.checkt-listhed h4{font-size: 18px;}
+	.tick-bal li h5{font-size: 16px;}
+	.cre-tibtn span{padding: 0 10px;font-size: 13px;}
+	.cre-tibtn i {width: 40px;height: 40px;font-size: 15px;}
+	/* **** End My Tickets **** */
+	/* **** News Page **** */
+	.news-wrps{padding: 60px 0;}
+	.shr-bx{text-align: left;margin: 0 0 10px;}
+	.news-blocks .col-md-4{padding: 0 15px;}
+	.news-blocks{padding: 20px 15px;}
+	/* **** End News Page **** */
+	/* **** Popups **** */
+	.modal-dialog{width: 90%;margin: 40px auto 0;}
+	.modal{padding-left: 0!important;}
+	.heali h6{margin: 0 0 10px;line-height: 22px;}
+	.main-poptwo p,.dividan-count p{width: 100%;}
+	.pop-bal h3{font-size: 20px;}
+	.heali h6:before{top: 6px;}
+	/* **** End Popups **** */
+}
+@media(min-width:448px) and (max-width:767px){
+	/* **** Game Page **** */
+	.navbar-default .navbar-nav{margin-left: 0;}
+	.navbar-default .navbar-nav>li{margin: 0;padding: 10px 0;}
+	.navbar-default .user-profile{float: none;padding: 0 20px;}
+	.chat-blocks{right: -350px;padding: 15px 0 0;}
+	section.main-wrpper{padding: 50px 0 0;}
+	.groth-chart img{position: relative;bottom: 0;right: 0;margin: 30px auto 0;}
+	.play-act h6{margin: 0;text-align: center;}
+	.main-game-bx{min-height: 100%;}
+	.chetbut{display: block;}
+	/* **** End Game Page **** */
+	/* **** Ranking Page **** */
+	.sort-blocks{padding: 15px;}
+	.sort-blocks li a{font-size: 14px;padding: 10px 15px;}
+	.player-wins-box h2{padding: 0 15px;font-size: 20px;}
+	.player-wins-box li{padding: 10px 15px;}
+	.ply-bx2 h5{font-size: 14px;}
+	.ply-bx img{width: 40px;height: 40px;margin-right: 10px;}
+	.ply-bx2 h6{width: 40px;height: 40px;line-height: 40px;font-size: 16px;margin:0 0 0 5px;}
+	/* **** End Ranking Page **** */
+	/* **** My Tickets **** */
+	.ticket-profile{padding: 0 15px;}
+	.cre-tibtn{float: none;margin: 15px 0;}
+	.checkt-listhed .col-md-4{padding: 0 15px;}
+	.tick-pro h3,.tick-bal li h4{font-size: 20px;}
+	.my-tickets-wrps{padding: 15px;}
+	.booked-tickets table tbody tr td{font-size: 14px;}
+	.checkt-listhed h4{font-size: 18px;}
+	/* **** End My Tickets **** */
+	/* **** News Page **** */
+	.news-wrps{padding: 60px 0;}
+	.shr-bx{text-align: left;margin: 0 0 10px;}
+	.news-blocks .col-md-4{padding: 0 15px;}
+	.news-blocks{padding: 20px 15px;}
+	/* **** End News Page **** */
+	/* **** Popups **** */
+	.modal-dialog{width: 100%;margin: 20px auto 0;}
+	.modal{padding-left: 0!important;}
+	button.close{top: 10px;right: 10px;}
+	.main-popone{padding: 65px 15px 20px;}
+	.heali h6{margin: 0 0 10px;line-height: 22px;}
+	.main-poptwo p,.dividan-count p{width: 100%;}
+	.pop-bal h3{font-size: 20px;}
+	.heali h6:before{top: 6px;}
+	.scolist-table{padding: 30px 15px;}
+	.bigheader h2{text-align: center;margin: 0 0 15px;}
+	.wins-tabs .nav-tabs{text-align: center;}
+	.big-one-cn{padding: 30px 15px;}
+	.data-content{padding: 40px 15px;}
+	.table-responsive{border: none;}
+	/* **** End Popups **** */
+}
+@media(max-width:447px){
+	/* **** Game Page **** */
+	.navbar-default .navbar-nav{margin-left: 0;}
+	.navbar-default .navbar-nav>li{margin: 0;padding: 10px 0;}
+	.navbar-default .user-profile{float: none;padding: 0 20px;}
+	.chat-blocks{width: 290px; right: -290px;padding: 15px 0 0;}
+	section.main-wrpper{padding: 50px 0 0;}
+	.groth-chart img{position: relative;bottom: 0;right: 0;margin: 30px auto 0;}
+	.play-act h6{margin: 0;text-align: center;}
+	.main-game-bx{min-height: 100%;}
+	.chetbut{display: block;}
+	/* **** End Game Page **** */
+	/* **** Ranking Page **** */
+	.sort-blocks{padding: 15px;}
+	.sort-blocks li a{font-size: 14px;padding: 10px 15px;}
+	.player-wins-box h2{padding: 0 15px;font-size: 20px;}
+	.player-wins-box li{padding: 10px 15px;}
+	.ply-bx2{float: none;}
+	.ply-bx2 h5{font-size: 14px;}
+	.ply-bx img{width: 40px;height: 40px;margin-right: 10px;}
+	.ply-bx2 h6{width: 40px;height: 40px;line-height: 40px;font-size: 16px;}
+	.player-wins-box li .col-xs-6{width: 100%;}
+	/* **** End Ranking Page **** */
+	/* **** My Tickets **** */
+	.ticket-profile{padding: 0 15px;}
+	.cre-tibtn{float: none;margin: 15px 0;}
+	.checkt-listhed .col-md-4{padding: 0 15px;}
+	.tick-pro h3,.tick-bal li h4{font-size: 20px;}
+	.my-tickets-wrps{padding: 15px;}
+	.booked-tickets table tbody tr td{font-size: 14px;}
+	.checkt-listhed h4{font-size: 18px;}
+	/* **** End My Tickets **** */
+	/* **** News Page **** */
+	.news-wrps{padding: 60px 0;}
+	.shr-bx{text-align: left;margin: 0 0 10px;}
+	.news-blocks .col-md-4{padding: 0 15px;}
+	.news-blocks{padding: 20px 15px;}
+	/* **** End News Page **** */
+	/* **** Popups **** */
+	.modal-dialog{width: 100%;margin: 20px auto 0;}
+	.modal{padding-left: 0!important;}
+	button.close{top: 10px;right: 10px;}
+	.main-popone{padding: 65px 15px 20px;}
+	.heali h6{margin: 0 0 10px;line-height: 22px;}
+	.main-poptwo p,.dividan-count p{width: 100%;}
+	.pop-bal h3{font-size: 20px;}
+	.heali h6:before{top: 6px;}
+	.scolist-table{padding: 30px 15px;}
+	.bigheader h2{text-align: center;margin: 0 0 15px;}
+	.wins-tabs .nav-tabs{text-align: center;}
+	.big-one-cn{padding: 30px 15px;}
+	.data-content{padding: 40px 15px;}
+	/* **** End Popups **** */
+}
